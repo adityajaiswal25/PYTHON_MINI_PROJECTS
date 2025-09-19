@@ -1,5 +1,5 @@
 import random
-import os
+
 
 # Global variables
 lives = 0
@@ -57,23 +57,6 @@ def guess():
             return life()
         print("Too low.")
         return life()
-    
-    
-
-    
-    # if g-number >=-5:
-    #     if g -number<5:
-    #         print("Too low")
-    #         return life()
-    #     print("A bit low")
-    #     return life()
-    # elif g-number <=5:
-    #     if g -number >5:
-    #         print("Too high")
-    #         return life()
-    #     print("A bit high")
-    #     return life()
-
     else:
         print(f"You got it! The answer was {number}\n")
         return('i')
@@ -83,7 +66,7 @@ def guess():
 def game():
     art()
     start()
-    print (number)
+    # print (number)
     while True:
         result = guess()
         if result == 'i' or result == 'h':
