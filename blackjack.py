@@ -1,14 +1,5 @@
 import random
-# cards = [11,2,3,4,5,6,7,8,9,10,10,10]
-# l1 = []
-# l2 = []
-# def r(c):
-#     c.append(random.choice(cards))
-#     return c
-# r(l1)
-# print(f"your first hand : {r(l1)} Current Score : {sum(l1)}")
 
-# print(f"Dealers first  hand : {r(l2)}")
 def art():
     logo = r"""
 .------.            _     _            _    _            _    
